@@ -8,7 +8,7 @@ var h1 = document.getElementsByTagName("h1")[0],
   t;
 
 function add() {
-  seconds++;
+  seconds++; //seconds = seconds + 1
   if (seconds >= 60) {
     seconds = 0;
     minutes++;
